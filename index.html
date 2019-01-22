@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+
+<head>
+
+  <title>Noise map generator</title>
+  <meta charset="utf-8" />
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #333;
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+    }
+
+    canvas {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <canvas id="can"></canvas>
+
+  <script src="perlin.js"></script>
+  <script src="lerp-color.js"></script>
+  <script src="main.js"></script>
+
+</html>
