@@ -1,6 +1,6 @@
 # noise-map-generator
 
-![Screenshot](https://gustavgb.github.io/noise-map-generator/screenshot.png)
+![Screenshot](screenshot.png)
 
 Using perlin and simplex noise to generate an island with climate biomes.
 
