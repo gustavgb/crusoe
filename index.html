@@ -30,7 +30,31 @@
 
   <canvas id="can"></canvas>
 
-  <script src="perlin.js"></script>
-  <script src="main.js"></script>
+  <script src="index.js"></script>
+
+  <script>
+
+    var canvas = document.getElementById('can')
+    canvas.width = 800
+    canvas.height = 600
+
+    var ctx = canvas.getContext('2d')
+
+    var gridSize = 5
+
+    var rendered = cavecay.renderMap(cavecay.generateMap({
+      seed: Date.now(),
+      width: 160,
+      height: 120
+    }))
+
+    for (var x = 0; x < rendered.width; x++) {
+      for (var y = 0; y < rendered.height; y++) {
+        ctx.fillStyle = rendered.colors[x][y]
+        ctx.fillRect(x * gridSize, y * gridSize, gridSize, gridSize)
+      }
+    }
+
+  </script>
 
 </html>
