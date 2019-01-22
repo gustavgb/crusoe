@@ -1,0 +1,25 @@
+{
+  "name": "islandboss",
+  "version": "0.0.1",
+  "description": "Generate small islands randomly",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavgb/islandboss.git"
+  },
+  "keywords": [
+    "island",
+    "generator",
+    "random",
+    "map",
+    "fantasy",
+    "perlin",
+    "noise"
+  ],
+  "author": "Gustav Burchardt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gustavgb/islandboss/issues"
+  },
+  "homepage": "https://github.com/gustavgb/islandboss/lib#readme"
+}
