@@ -6,7 +6,7 @@ Generate small islands with perlin noise!
 
 ## Links
 
-Take a look at the live island generator: https://gustavgb.github.io/crusoe/demo.
+Take a look at the [live demo](https://gustavgb.github.io/crusoe/demo).
 
 Visit [the package readme] for a complete documentation.
 
