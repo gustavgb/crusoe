@@ -8,7 +8,7 @@ Generate small islands with perlin noise!
 
 Take a look at the [live demo](https://gustavgb.github.io/crusoe/demo).
 
-Visit [the package readme] for a complete documentation.
+Visit [the package readme](https://www.npmjs.com/package/crusoe) for a complete documentation.
 
 ## Acknowledgements
 

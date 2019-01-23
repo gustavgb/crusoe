@@ -1,11 +1,11 @@
 {
-  "name": "islandboss",
-  "version": "0.0.1",
-  "description": "Generate small islands randomly",
+  "name": "crusoe",
+  "version": "1.0.0",
+  "description": "Generate small islands",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gustavgb/islandboss.git"
+    "url": "git+https://github.com/gustavgb/crusoe.git"
   },
   "keywords": [
     "island",
@@ -14,12 +14,13 @@
     "map",
     "fantasy",
     "perlin",
-    "noise"
+    "noise",
+    "crusoe"
   ],
   "author": "Gustav Burchardt",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gustavgb/islandboss/issues"
+    "url": "https://github.com/gustavgb/crusoe/issues"
   },
-  "homepage": "https://github.com/gustavgb/islandboss/lib#readme"
+  "homepage": "https://github.com/gustavgb/crusoe/lib#readme"
 }
