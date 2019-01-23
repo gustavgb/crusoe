@@ -36,7 +36,7 @@ Returns:
 }
 ```
 
-Island data can be accessed be using the syntax: `map.data[x][y]`.
+Island data can be accessed by using the syntax: `map.data[x][y]`.
 
 
 ### renderMap
@@ -53,7 +53,7 @@ Returns:
 }
 ```
 
-Island colors can be accessed be using the syntax: `rendered.colors[x][y]`.
+Island colors can be accessed by using the syntax: `rendered.colors[x][y]`.
 
 ### Options:
 
