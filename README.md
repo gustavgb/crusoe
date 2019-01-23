@@ -1,6 +1,6 @@
 # crusoe
 
-![Screenshot](screenshot.png)
+![Screenshot](demo/screenshot.png)
 
 Generate small islands with perlin noise!
 
