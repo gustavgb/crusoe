@@ -1,11 +1,15 @@
-# islandboss
+# crusoe
 
 ![Screenshot](screenshot.png)
 
-Using perlin and simplex noise to generate an island with climate biomes.
+Generate small islands with perlin noise!
+
+## Links
+
+Take a look at the live island generator: https://gustavgb.github.io/crusoe/demo.
+
+Visit [the package readme] for a complete documentation.
+
+## Acknowledgements
 
 Thanks to [noisejs](https://github.com/josephg/noisejs) for sharing a great perlin noise library.
-
-Take a look at the live island generator: https://gustavgb.github.io/islandboss.
-
-I'll publish islandboss as an npm package soon.
