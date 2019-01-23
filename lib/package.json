@@ -1,6 +1,6 @@
 {
   "name": "crusoe",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generate small islands",
   "main": "index.js",
   "repository": {
