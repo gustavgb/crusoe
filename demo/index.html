@@ -127,7 +127,7 @@
     }
 
     function render () {
-      var rendered = crusoe.renderMap(crusoe.generateMap({
+      var map = crusoe.generateMap({
         seed: Date.now(),
         width: 120 * options.resolution,
         height: 120 * options.resolution,
@@ -136,13 +136,13 @@
         elevation: options.elevation,
         lakeSize: options.lakeSize,
         curve: options.curve
-      }))
+      })
 
       ctx.clearRect(0, 0, canvas.width, canvas.height)
 
-      for (var x = 0; x < rendered.width; x++) {
-        for (var y = 0; y < rendered.height; y++) {
-          ctx.fillStyle = rendered.colors[x][y]
+      for (var x = 0; x < map.width; x++) {
+        for (var y = 0; y < map.height; y++) {
+          ctx.fillStyle = crusoe.getColor(map.data[x][y])
           var gridSize = (canvas.width / (120 * options.resolution))
           ctx.fillRect(x * gridSize, y * gridSize, gridSize + 0.1, gridSize + 0.1)
         }
