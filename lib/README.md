@@ -58,12 +58,10 @@ Island data can be accessed by using the syntax: `map.data[x][y]`.
 * **height**: Height of the image data. Default: 100.
 * **noiseReduction**: Amount of noise reduction to be applied. Default: 10.
 * **seed**: Custom seed. Default: 0.
-* **sharpness**: Sharpness of the coastline. Default: 1.
 * **size**: Size of the island. Default 1.
 * **elevation**: Island elevation above sea level. Default 3.
 * **lakeSize**: Size of lakes on island. Default 3.
 * **curve**: Island curve. Default: 1.
-
 
 ### renderMap
 
